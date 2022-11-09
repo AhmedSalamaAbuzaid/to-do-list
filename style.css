@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box
+}
+
+
+form{
+    margin: 50px auto 20px;
+    width: 90%;
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 10px;
+    gap: 15px;
+
+}
+
+[type="submit"]{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+[type="text"]{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(121 121 121 / 39%)
+}
+
+.tasks {
+    background-color: #eee;
+    width: 90%;
+    padding: 10px 20px;
+    margin: 0px auto;
+    border-radius: 8px;
+}
+
+.tasks div{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin: 10px 0;
+}
+.del{
+color: white;
+background-color: red;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+padding: 5px 15px;
+font-size: 15px;
+}
+
+.tasks div:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.tasks .done{
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration-line: line-through;
+}
+
+
+
+.tasks div.delete-all {
+    color: white;
+    background-color: red;
+    justify-content: center;
+}
